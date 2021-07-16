@@ -1,0 +1,15 @@
+spring:
+  config:
+    activate:
+      on-profile: dev
+
+app:
+  datasource:
+    url: "jdbc:postgresql://localhost/postgres"
+    user: "postgres"
+    password: "root"
+    schema: "public"
+    table: "planets"
+
+  config:
+    base-url: "https://swapi.dev/api/"
